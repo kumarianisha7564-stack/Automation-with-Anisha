@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="AutomationWithAnisha">
+
+    <test thread-count="5" name="RegressionTest">
+
+        <classes>
+            <class name="Base_Utility.ContactTest"/>
+            <class name="Base_Utility.LeadTest"/>
+            <class name="Base_Utility.OrgTest"/>
+        </classes>
+
+    </test>
+
+</suite>
